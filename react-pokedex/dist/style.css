@@ -67,6 +67,7 @@ button {
   border-radius: 5px;
   font-size: 16px;
   font-weight: bold;
+   font-family: "VT323";
   text-decoration: none;
   transition: all 0.3s ease;
   cursor: pointer;
