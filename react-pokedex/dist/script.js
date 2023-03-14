@@ -82,7 +82,7 @@ class Pokedex extends React.Component {
       fetch(evo_chain).
       then(response => response.json()).
       then(data => {
-        const api = "https://chipper-muffin-c6de8e.netlify.app/data/api/v2/pokemon/";
+        const api = "https://github.com/RedPillPhil/api-data/tree/master/data/api/v2/pokemon";
         const first = data.chain;
         let second;
         let third;
