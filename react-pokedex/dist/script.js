@@ -19,7 +19,7 @@ class Pokedex extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      requestRoot: "https://chipper-muffin-c6de8e.netlify.app/data/api/v2/pokemon/",
+      requestRoot: "https://pokeapi.co/api/v2/pokemon/",
       pokemonIndex: POKEMON,
       pokemonData: {},
       pokemonDescription: "",
@@ -82,7 +82,7 @@ class Pokedex extends React.Component {
       fetch(evo_chain).
       then(response => response.json()).
       then(data => {
-        const api = "https://chipper-muffin-c6de8e.netlify.app/data/api/v2/pokemon/";
+        const api = "https://pokeapi.co/api/v2/pokemon/";
         const first = data.chain;
         let second;
         let third;
