@@ -19,7 +19,7 @@ class Pokedex extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      requestRoot: "https://eclectic-starship-6eeb6f.netlify.app/v2/pokemon/",
+      requestRoot: "https://eclectic-starship-6eeb6f.netlify.app/data/v2/pokemon/",
       pokemonIndex: POKEMON,
       pokemonData: {},
       pokemonDescription: "",
